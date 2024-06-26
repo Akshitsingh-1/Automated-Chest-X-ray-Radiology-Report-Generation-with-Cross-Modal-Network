@@ -1,0 +1,53 @@
+{% extends "base.html" %} {% block content %}
+
+
+<div class="Generation">
+    <h2>Generate your Report:</h2>
+    <p style="font-style: italic; color: rgb(160, 164, 166);">      Hint: Upload 2 images ( lateral - frontal ).</p><br>
+    <p style="font-style: italic; color: rgb(148, 150, 151);">Hint For patient: Identify if you want to understant content of report.  See the doctor</p>
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <label for="imageUpload" class="upload-label">
+            Choose images
+        </label>
+        <input type="file" name="file1" id="imageUpload" multiple accept=".png, .jpg, .jpeg">
+        
+
+        <input type="checkbox" id="completeReport">
+        <label for="completeReport">
+            Translate The Report
+        </label>
+
+
+        <input type="checkbox" id="extractKeys">
+        <label for="extractKeys">
+            Extract Important Keywords
+        </label>
+
+    </form>
+
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+
+        <div class="img-preview">
+            <div id="imagePreview1">
+            </div>
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
+        </div>
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+    <h3 id="result">
+        <span> </span>
+        
+    </h3>
+
+</div>
+
+{% endblock %}

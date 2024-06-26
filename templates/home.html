@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Report Generation</title>
+    <link rel="stylesheet" href="style.css">
+</head> -->
+
+<!-- <body> -->
+{% extends "base2.html" %} {% block content %}
+<!-- <header>
+    <div class="logo">
+        <h1>Medical Report Generation</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header> -->
+
+<main>
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Generate Your Medical Report</h2>
+            <div class="options">
+                <h3>To Generate Report</h3>
+                <!-- <input type="text" id="doctorName"><br> -->
+                <form action='/getStart' method='post' enctype='multipart/form-data'>
+                    <input type="submit"  id="start" class="button" value="Get Started" >
+                    
+                </form>
+                <!-- <button type="button" action="/getStart" method="post" enctype="multipart/form-data" class="button" id="start">Get Started</button> -->
+            </div>
+            <div class="loader" style="display:none;"></div>
+            <!-- <div class="options">
+                <h3>To Understand Report</h3>
+                <button type="button" class="button" id="help">Help Me</button>
+            </div> -->
+
+        </div>
+        <div class="hero-image">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Medical Report Generation">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-box">
+            <img src="{{ url_for('static', filename='images/history.png') }}" alt="Medical History">
+            <h3>Medical History</h3>
+            <p>A record of information about a person's health. A personal medical history may include information
+                about allergies,
+                illnesses, surgeries, immunizations, and results of physical exams and tests. It may also include
+                information about
+                medicines taken and health habits, such as diet and exercise</p>
+        </div>
+        <div class="feature-box">
+            <img src="{{ url_for('static', filename='images/healthMetr.jpeg') }}" alt="Health Metrics">
+            <h3>Health Metrics</h3>
+            <p>Product health metrics are the key performance indicators that measure a product's performance and
+                success.
+                Tracking these metrics helps you gain growth insights, track user engagement,
+                and measure customer satisfaction. Conversion rate measures the percentage of users performing the
+                desired action</p>
+        </div>
+        <div class="feature-box">
+            <img src="{{ url_for('static', filename='images/images.jpeg') }}" alt="Medications">
+            <h3>Medications</h3>
+            <p>A medication (medicament, medicine, pharmaceutical drug, medicinal drug
+                or simply drug) is a drug used to diagnose, cure, treat, or prevent disease.
+                A dosage form that contains one or more active and inactive ingredients. Medications come in
+                many dosage forms, including tablets, capsules, liquids and creams.</p>
+        </div>
+    </section>
+    
+</main>
+
+
+{% endblock %}

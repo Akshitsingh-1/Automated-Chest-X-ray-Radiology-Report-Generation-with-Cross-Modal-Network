@@ -1,0 +1,130 @@
+Pneumonia
+Pleurisy
+Pulmonary embolism
+Asthma
+Chronic obstructive pulmonary disease (COPD)
+Bronchitis
+Tuberculosis
+Lung cancer
+Pleural effusion
+Aortic dissection
+Hiatal hernia
+Calcified granuloma
+Biapical scarring
+Lung nodule
+Atelectasis
+Enlarged heart (cardiomegaly)
+Scoliosis
+Emphysema
+Rheumatoid arthritis
+Lupus
+DISEASE
+SYMPTOM
+Pneumonia
+Pleurisy
+Pulmonary
+embolism
+Asthma
+Chronic
+obstructive
+pulmonary
+disease
+COPD
+Bronchitis
+Tuberculosis
+Lung
+cancer
+Pleural
+effusion
+Aortic
+dissection
+Hiatal
+hernia
+Calcified
+granuloma
+lobe
+Cardiac
+Mediastinal
+Pulmonary
+Vascularity
+Air space opacities
+Pleural effusion
+Pneumothorax
+Calcified opacity
+Left lung base
+Empyema
+Hematoma
+TB
+Cavitary
+lesions
+Chest
+Cardiomediastinal
+silhouette
+Aorta
+streaky
+opacity
+Scarring
+Discoid
+atelectasis
+Midright
+lung
+granuloma
+Nodula
+opacities
+costophrenic
+sulcus
+Posterior
+rib
+Anterior
+T10
+vertebral
+body
+Focal
+airspace
+consolidation
+Biapical
+scarring
+nodule
+heart
+Bibasilar
+foca
+atelectasis
+Enlarged
+heart
+size
+calcification
+aortic
+noted
+tip
+SVC
+Scoliosis
+Sclerotic
+Vascular
+calcification
+Degenerative
+ changes
+Spine
+Cardiomegaly
+Aortic
+ectasia
+Aortic
+tortuosity
+Rib contour
+deformities
+Calcified
+granuloma
+Low
+lung
+volumes
+Chronic
+hemidiaphragm
+elevation
+Atherosclerotic
+calcifications
+Pulmonary
+vascularity
+Pleural
+effusion
+Pneumothorax
+Focal air space opacity
+Pneumonia
